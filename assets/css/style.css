@@ -1,0 +1,16 @@
+.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+    overflow: hidden;
+}
+.menlist{
+    float:left ;
+}
+.menlist .menubut{
+    color:white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    
+}
