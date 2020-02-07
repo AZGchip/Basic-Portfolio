@@ -1,16 +1,41 @@
+body{
+    margin: 0px;
+}
 .menu{
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     list-style-type:none;
     overflow: hidden;
+    width: 50%;
+    background-color: #f5f5f5;
 }
 .menlist{
     float:left ;
 }
 .menlist .menubut{
-    color:white;
+    color:#333333;
     text-align: center;
-    padding: 15px 17px;
+    padding:  18px;
     text-decoration: none;
     
+}
+.titlebox{
+margin: 0 auto;
+float: left;
+width: 40%;
+padding: 0px;
+}
+.portheader{
+    display: flex;
+    flex-wrap: nowrap; 
+    background-color: #f5f5f5;
+    border-bottom: 3px solid #acaaaa;
+    padding-bottom: 0px;
+} 
+
+#porttitle{
+background-color: teal;
+width: 250px;
+padding: 5px;
+text-align: center;
 }
