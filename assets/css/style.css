@@ -1,17 +1,22 @@
 body{
     margin: 0px;
 }
+/* menu container */
 .menu{
     margin: 0px;
     padding: 20px;
     list-style-type:none;
     overflow: hidden;
     width: 50%;
+    height: 20px;
     background-color: #f5f5f5;
+    margin-top: 20px;
 }
+/* menu list */
 .menlist{
     float:left ;
 }
+/* menu list and menu buttons */
 .menlist .menubut{
     color:#333333;
     text-align: center;
@@ -19,23 +24,50 @@ body{
     text-decoration: none;
     
 }
+/* container for title */
 .titlebox{
 margin: 0 auto;
 float: left;
 width: 40%;
 padding: 0px;
 }
+/* portfolio header  */
 .portheader{
     display: flex;
     flex-wrap: nowrap; 
     background-color: #f5f5f5;
-    border-bottom: 3px solid #acaaaa;
+    border-bottom: 1px solid #acaaaa;
     padding-bottom: 0px;
 } 
-
+/* title  */
 #porttitle{
 background-color: teal;
 width: 250px;
 padding: 5px;
 text-align: center;
+}
+/* main body container */
+.bodycont{
+    width: 960px;
+    height: 1000px;
+    margin: 0px;
+    background-color:#ffffff;
+  
+   
+}
+/* the void lies beyond the width of the main body container*/
+.voidspace{
+background-color: #acaaaa;
+margin: auto;
+float: left;
+}
+.voidspace2{
+    background-color: #acaaaa;
+    margin: auto;
+    float: right;
+    }
+.spacecont{
+    display:flex;
+    background-color:gray;
+    flex-wrap: nowrap;
 }
