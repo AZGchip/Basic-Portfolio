@@ -18,16 +18,27 @@ body{
 }
 /* menu list and menu buttons */
 .menlist .menubut{
-    color:#333333;
     text-align: center;
     padding:  18px;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+}
+/* link styles */
+a:link{
+    color:#333333;
+}
+a:visited{
+    color:#333333;
+}
+a:hover{
+    color:#acaaaa;
+}
+a:active{
+    color:#000000
 }
 /* menu pipes */
 #menupipe{
-    color: #acaaaa;
+    color:#acaaaa;
 }
 /* container for title */
 .titlebox{
