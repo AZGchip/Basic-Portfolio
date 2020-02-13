@@ -101,18 +101,19 @@ border-radius: 25px 5px 5px 5px;
 }
 /* the void lies beyond the width of the main body container*/
 .voidspace{
-background-color: #acaaaa;
+background-color: transparent;
 margin: auto;
 float: left;
 }
 .voidspace2{
-    background-color: #acaaaa;
+    background-color: transparent;
     margin: auto;
     float: right;
     }
 .spacecont{
     display:flex;
-    background-color:#dddddd;
+    background-image: url("assets/images/background.jpg");
+    background-color: #acaaaa;
     flex-wrap: nowrap;
     
 }
@@ -120,12 +121,19 @@ float: left;
 .box{
     height: 200px;
     width: 200px;
-    background-color:#4aaaa5;
+    background-color:transparent;
     margin: 10px;
     float: left;
     position: relative;
+    
+}
+.box img{
+    height: 200px;
+    width: 200px;
     border-radius: 25px 25px 25px 25px;
 }
+
+
 /* box container */
 .boxcont{
     width: 440px;
@@ -150,6 +158,7 @@ position: absolute;
 background:rgba(20,20,20,.5);
 width:200px;
 bottom: 25px;
+z-index: 2;
 }
 .boxtext{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
