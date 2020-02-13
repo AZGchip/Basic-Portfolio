@@ -155,16 +155,22 @@ float: left;
 /* image text box */
 .text-cont{
 position: absolute;
-background:rgba(20,20,20,.5);
+background:rgba(74,170,165,.75);
 width:200px;
+height: 50px;
 bottom: 25px;
 z-index: 2;
 }
 .boxtext{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color: #cecece;
+    color: #ffffff;
     text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+   margin: 0px;
+    
+    
 }
 footer{
     background-color: #5e5e5e;
@@ -216,4 +222,4 @@ p img{
 }
 p{
     padding:25px;
-}
+    font-family: sans-serif;
