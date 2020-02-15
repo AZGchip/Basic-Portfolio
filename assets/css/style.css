@@ -67,11 +67,11 @@ padding-left: auto;
 padding-right: auto;
 position: relative;
 }
-/* portfolio header (title and menu container) */
-.portheader{
+
+
     
     
-} 
+
 /* title  */
 #porttitle{
 background-color:#4aaaa5;
@@ -215,6 +215,7 @@ p img{
     float: left;
     height: 200px;
     width: 200px;
+    padding: 4px;
     
 }
 p{
